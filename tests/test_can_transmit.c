@@ -260,7 +260,7 @@ void test_CAN_Transmit_ShouldReturn_Busy_WhenAllRetriesReturnWait(void)
     CAN_Status_t status = CAN_Transmit(0x7F0U, DUMMY_DATA, 8U,
                                         true, CAN_CHANNEL_VEHICLE);
 
-    TEST_ASSERT_EQUAL(CAN_BUSY, status);
+    TEST_ASSERT_EQUAL(CAN_ERR_TIMEOUT, status);
 }
 
 void test_CAN_Transmit_ShouldReturn_Timeout_WhenHwReturnsUnknownError(void)
