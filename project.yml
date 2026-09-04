@@ -1,0 +1,28 @@
+:project:
+  :use_exceptions: FALSE
+  :use_mocks: FALSE
+  :use_test_preprocessor: :none
+  :build_root: build/ceedling
+  :test_file_prefix: test_
+
+:paths:
+  :test:
+    - tests/**
+  :source:
+    - source/**
+  :include:
+    - source
+
+:files:
+  :test:
+    - +:tests/test_*.c
+  :source:
+    - +:source/*.c
+
+:defines:
+  :common: []
+  :test:
+    - UNIT_TEST
+
+:unity:
+  :defines: []

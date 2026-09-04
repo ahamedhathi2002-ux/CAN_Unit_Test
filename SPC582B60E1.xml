@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackageInstance refId="SPC582B60E1">
+  <Configurables>
+    <Configurable refId="PB10" alias="PIN_TX_1_0" active="NONE" advanced="false">
+      <Properties>
+        <PropertyRef refId="P_17" value="2" />
+        <PropertyRef refId="P_16" value="0" />
+        <PropertyRef refId="P_19" value="false" />
+        <PropertyRef refId="P_18" value="0" />
+        <PropertyRef refId="P_3" value="0" />
+        <PropertyRef refId="P_5" value="true" />
+        <PropertyRef refId="P_14" value="false" />
+        <PropertyRef refId="P_8" value="true" />
+        <PropertyRef refId="P_20" value="false" />
+        <PropertyRef refId="P_21" value="false" />
+      </Properties>
+      <FunctionRef id="TX_1_0" direction="O" alt="MSCR_26_3" />
+    </Configurable>
+    <Configurable refId="PB9" alias="PIN_RX_1_0" active="NONE" advanced="false">
+      <Properties>
+        <PropertyRef refId="P_17" value="0" />
+        <PropertyRef refId="P_16" value="0" />
+        <PropertyRef refId="P_19" value="false" />
+        <PropertyRef refId="P_18" value="0" />
+        <PropertyRef refId="P_3" value="0" />
+        <PropertyRef refId="P_5" value="true" />
+        <PropertyRef refId="P_8" value="true" />
+        <PropertyRef refId="P_20" value="true" />
+        <PropertyRef refId="P_21" value="false" />
+      </Properties>
+      <FunctionRef id="RX_1_0" direction="I" alt="MSCR_758_1" />
+    </Configurable>
+  </Configurables>
+</PackageInstance>

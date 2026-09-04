@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+environment/project/0.1240533142/PATH/delimiter=;
+environment/project/0.1240533142/PATH/operation=prepend
+environment/project/0.1240533142/PATH/value=C\:\\AutoDevKitStudio-2.8.1\\eclipse\\configuration\\org.eclipse.osgi\\278\\0\\.cp\\gnutools;
+environment/project/0.1240533142/append=true
+environment/project/0.1240533142/appendContributed=true
+environment/project/0.651412362/PATH/delimiter=;
+environment/project/0.651412362/PATH/operation=prepend
+environment/project/0.651412362/PATH/value=C\:\\AutoDevKitStudio-2.8.1\\eclipse\\configuration\\org.eclipse.osgi\\278\\0\\.cp\\gnutools;
+environment/project/0.651412362/append=true
+environment/project/0.651412362/appendContributed=true
+environment/project/com.st.tools.spc5.configuration.default/PATH/delimiter=;
+environment/project/com.st.tools.spc5.configuration.default/PATH/operation=prepend
+environment/project/com.st.tools.spc5.configuration.default/PATH/value=C\:\\AutoDevKitStudio-2.8.1\\eclipse\\configuration\\org.eclipse.osgi\\278\\0\\.cp\\gnutools;
+environment/project/com.st.tools.spc5.configuration.default/append=true
+environment/project/com.st.tools.spc5.configuration.default/appendContributed=true
